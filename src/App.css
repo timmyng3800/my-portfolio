@@ -27,6 +27,14 @@
 .App-link {
   color: #61dafb;
 }
+.navbar-itemactive{
+  padding-bottom: 2px;
+  border-bottom: 3;
+ 
+}
+#placeholder{
+  width: 20;
+}
 
 @keyframes App-logo-spin {
   from {
