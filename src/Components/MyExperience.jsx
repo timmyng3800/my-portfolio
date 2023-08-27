@@ -1,9 +1,6 @@
 import React from "react";
-import { BiLogoReact, BiLogoCss3, BiLogoCPlusPlus } from "react-icons/bi";
-import { TbDeviceMobileCog } from "react-icons/tb";
-import { AiFillHtml5 } from "react-icons/ai";
-import { IoLogoJavascript } from "react-icons/io";
-import { TbBrandTypescript } from "react-icons/tb";
+import { BiLogoCPlusPlus } from "react-icons/bi";
+
 import HTML from "../asset/svg/HTML";
 import CSS from "../asset/svg/CSS";
 import JavaScript from "../asset/svg/Javascript";

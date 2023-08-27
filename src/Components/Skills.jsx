@@ -1,11 +1,8 @@
 import React from "react";
 import { ImMobile } from "react-icons/im";
-import { RiComputerLine } from "react-icons/ri";
 import { FaTools } from "react-icons/fa";
-import Typed from "react-typed";
-import WebdevIcon from "../asset/svg/WebDevelopementIcon";
 import {HiOutlineDesktopComputer} from "react-icons/hi"
-import webdev from "../asset/dynamic picture/webdev.json"
+
 const Skills = () => {
   const skills = [
     {

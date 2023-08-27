@@ -3,9 +3,7 @@ import styles from "../mystyle.module.css";
 import aboutimage from "../asset/image/aboutimage.jpg";
 import Typed from "react-typed";
 import { motion } from "framer-motion";
-import Lottie from "lottie-react";
-import arrow from "../asset/dynamic picture/arrow.json";
-import myresumebutton from "../asset/dynamic picture/myresumebutton.json"
+
 const About = () => {
   return (
     <div id="about" style={{ paddingTop: 100 }} className="w-full">
@@ -22,7 +20,7 @@ const About = () => {
             I'm a Front End developer based in sunny Melbourne, Australia.
           </p>
           <p className="text-gray-500">
-            Since 2005, I've enjoyed turning complex problems into simple,
+           I've enjoyed turning complex problems into simple,
             beautiful and intuitive designs. When I'm not pushing pixels, you'll
             find me cooking, gardening or working out in the park.
           </p>

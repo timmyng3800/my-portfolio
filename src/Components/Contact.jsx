@@ -1,8 +1,5 @@
 import React, { useRef, useState } from "react";
 import styles from "../mystyle.module.css";
-import { CiMail } from "react-icons/ci";
-import GmailIcon from "../asset/svg/gmailIcon";
-import FunnyIcon from "../asset/svg/funny";
 import PhoneCallIcon from "../asset/svg/phonecallIcon";
 import emailjs from "@emailjs/browser";
 import { Alert } from "@mui/material";

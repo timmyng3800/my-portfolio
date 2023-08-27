@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "../mystyle.module.css";
-import { SiGmail } from "react-icons/si";
 import { GrFacebook, GrLinkedin, GrGithub } from "react-icons/gr";
 import { FiMenu } from "react-icons/fi";
 import { IoIosCloseCircleOutline } from "react-icons/io";

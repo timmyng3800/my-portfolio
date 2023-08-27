@@ -1,6 +1,6 @@
 import React from "react";
 import { GrLinkedin, GrGithub, GrFacebook } from "react-icons/gr";
-import styles from "../mystyle.module.css";
+
 const Footer = () => {
   const icons = [
     {
