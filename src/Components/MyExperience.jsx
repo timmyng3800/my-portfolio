@@ -10,6 +10,8 @@ import JavaScript from "../asset/svg/Javascript";
 import ReactJS from "../asset/svg/ReactJ";
 import ReactNative from "../asset/svg/ReactNative";
 import TypeScriptIcon from "../asset/svg/Typescript";
+import TailwinCssIcon from "../asset/svg/TailwinCssIcon";
+import BootstrapIcon from "../asset/svg/BootstrapIcon";
 
 const MyExperience = () => {
   const icons = [
@@ -48,6 +50,17 @@ const MyExperience = () => {
       icon: <TypeScriptIcon size={32} />,
       title: "TypeScripts",
     },
+    {
+      id: 8,
+      icon: <TailwinCssIcon size={32} />,
+      title: "Tailwind",
+    },
+    {
+      id: 9,
+      icon: <BootstrapIcon size={32} />,
+      title: "Bootstrap",
+    },
+
   ];
 
   const experiences = [

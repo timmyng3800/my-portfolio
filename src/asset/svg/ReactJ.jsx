@@ -4,8 +4,8 @@ const ReactJS = () => {
   return (
     <div>
       <svg
-     width={50}
-     height={50}
+    width={45}
+    height={45}
         viewBox="0 0 32 32"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

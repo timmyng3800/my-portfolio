@@ -4,24 +4,26 @@ import { RiComputerLine } from "react-icons/ri";
 import { FaTools } from "react-icons/fa";
 import Typed from "react-typed";
 import WebdevIcon from "../asset/svg/WebDevelopementIcon";
+import {HiOutlineDesktopComputer} from "react-icons/hi"
+import webdev from "../asset/dynamic picture/webdev.json"
 const Skills = () => {
   const skills = [
     {
       id: 1,
-      icon: <WebdevIcon size={30} />,
+      icon: <HiOutlineDesktopComputer size={40} />,
       title: "Web developement",
       content:
         "HTML/CSS, ReactJs, TypeScript, JavaScript Animation, Responsive Website.",
     },
     {
       id: 2,
-      icon: <ImMobile size={50} />,
+      icon: <ImMobile size={40} />,
       title: "Mobile developement",
       content: "React Native, Expo, Redux, MobX, React Hook, Websocket, RESTapi",
     },
     {
       id: 3,
-      icon: <FaTools size={50} />,
+      icon: <FaTools size={35} />,
       title: "Tools",
       content: "Version control, Postman, ReactoTron, Agile",
     },

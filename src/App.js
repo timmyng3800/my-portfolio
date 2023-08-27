@@ -5,6 +5,7 @@ import MyExperience from "./Components/MyExperience";
 import NavBar from "./Components/NavBar";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ function App() {
         <Skills />
         <MyExperience />
         <Contact/>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

@@ -27,7 +27,7 @@ const NavBar = () => {
       id: 4,
       name: "Contact Me",
       to: "contactme",
-    }
+    },
   ];
   const icons = [
     {
@@ -48,6 +48,7 @@ const NavBar = () => {
   ];
 
   const [navBar, setNavBar] = useState(false);
+
 
   return (
     <div className="flex justify-around items-center w-full h-20 text-white bg-black fixed">
@@ -103,8 +104,9 @@ const NavBar = () => {
               <li
                 key={item.id}
                 className="cursor-pointer hover:scale-125 py-4 text-3xl duration-150"
+              
               >
-                <Link to={item.to} spy={true} smooth={true} duration={500}>
+                <Link   onClick={()=>setNavBar(!navBar)} to={item.to} spy={true} smooth={true} duration={500}>
                   {item.name}
                 </Link>
               </li>

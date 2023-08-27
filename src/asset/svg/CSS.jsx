@@ -3,8 +3,10 @@ import React from "react";
 const CSS = () => {
   return (
     <div>
-   <svg  width={50}
-        height={50}xmlns="http://www.w3.org/2000/svg"
+   <svg  
+ width={45}
+ height={45}
+        xmlns="http://www.w3.org/2000/svg"
 aria-label="CSS3" role="img"
 viewBox="0 0 512 512"><path fill="#264de4"
 d="M72 460L30 0h451l-41 460-184 52"/><path fill="#2965f1"

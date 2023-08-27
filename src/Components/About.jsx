@@ -21,17 +21,11 @@ const About = () => {
           <p className={styles.title} style={{ marginBottom: 20 }}>
             I'm a Front End developer based in sunny Melbourne, Australia.
           </p>
-          <p>
+          <p className="text-gray-500">
             Since 2005, I've enjoyed turning complex problems into simple,
             beautiful and intuitive designs. When I'm not pushing pixels, you'll
             find me cooking, gardening or working out in the park.
           </p>
-          {/* <div>
-            <div style={{ width: 200 }}>
-              <Lottie animationData={myresumebutton} size={20} />
-            </div>
-            
-          </div> */}
         </div>
         <div>
           <motion.div
