@@ -57,7 +57,7 @@ const Skills = () => {
           return (
             <div
               key={item.id}
-              className="grid justify-items-center items-center py-3"
+              className="grid justify-items-center items-center py-3 hover:scale-110 duration-200"
             >
               {item.icon}
               <h2 className="text-lg my-1">{item.title}</h2>

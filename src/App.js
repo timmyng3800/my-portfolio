@@ -11,13 +11,6 @@ function App() {
     <BrowserRouter>
       <div>
         <NavBar />
-        {/* <div>
-          <Switch>
-            <Route exact path="/about" component={About} />
-            <Route path="/skills" component={Skills} />
-            <Route path="/myexperiences" Component={MyExperience} />
-          </Switch>
-        </div> */}
         <About />
         <Skills />
         <MyExperience />

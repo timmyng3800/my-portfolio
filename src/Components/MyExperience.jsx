@@ -113,10 +113,10 @@ const MyExperience = () => {
       </div>
 
       <div className="flex flex-col h-full md:flex-row mx-auto w-full justify-items-center divide-gray-300 divide-x py-20 lg:px-32">
-        <div className="grid grid-cols-2 gap-4 justify-items-center  md:grid-cols-3 lg:grid-cols-4 w-full sm:w-full md:w-1/2 mb-10 ">
+        <div className="grid grid-cols-2 gap-4 justify-items-center  md:grid-cols-3 lg:grid-cols-4 w-full sm:w-full md:w-1/2 mb-10  ">
           {icons.map((item) => {
             return (
-              <div key={item.id} className="items-center flex flex-col mb-10">
+              <div key={item.id} className="items-center flex flex-col mb-10 hover:scale-110 duration-200">
                 {item.icon}
                 <p>{item.title}</p>
               </div>
