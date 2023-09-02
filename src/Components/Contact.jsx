@@ -4,6 +4,9 @@ import PhoneCallIcon from "../asset/svg/phonecallIcon";
 import emailjs from "@emailjs/browser";
 import { Alert } from "@mui/material";
 import GmailIcon from "../asset/svg/gmailIcon"
+import whatsapp from "../asset/dynamic picture/whatsapp.json"
+import Lottie from "lottie-react";
+import gmail from "../asset/dynamic picture/gmail.json"
 const Contact = () => {
   const [emailsent, setEmailsent] = useState(false);
   const form = useRef();
@@ -72,7 +75,7 @@ const Contact = () => {
                 className="flex flex-row border-gray-100 border-2 hover:bg-slate-100 cursor-pointer px-5 py-3 rounded-lg mb-5 "
                 href="mailto: quanganh.timmyng@gmail.com"
               >
-                <GmailIcon />
+              <GmailIcon/>
 
                 <div className="px-5">
                   <p>Mail me at</p>
@@ -85,7 +88,7 @@ const Contact = () => {
                 className="flex flex-row border-gray-100 border-2 hover:bg-slate-100 cursor-pointer px-5 py-3 rounded-lg "
                 href="mailto: quanganh.timmyng@gmail.com"
               >
-                <PhoneCallIcon />
+                <Lottie animationData={whatsapp}/>
 
                 <div className="px-5">
                   <p>Call me via</p>
@@ -114,7 +117,7 @@ const Contact = () => {
                 Your name
               </label>
               <input
-                className="placeholder-gray-500 placeholder-opacity-50 focus:placeholder-gray-500 bg-purple-50 py-2 mb-5 px-3 border rounded-md text-sm"
+                className="placeholder-gray-500 placeholder-opacity-50 focus:placeholder-gray-500 bg-purple-50 focus:bg-white focus:outline-none py-2 mb-5 px-3 border rounded-md text-sm"
                 placeholder="Full Name*"
                 required
                 name="user_name"
@@ -128,7 +131,7 @@ const Contact = () => {
               </label>
               <input
                 required
-                className="placeholder-gray-500 placeholder-opacity-50 focus:placeholder-gray-500 bg-purple-50 py-2 mb-5 px-3 border rounded-md text-sm "
+                className="placeholder-gray-500 placeholder-opacity-50 focus:placeholder-gray-500 focus:bg-white focus:outline-none bg-purple-50 py-2 mb-5 px-3 border rounded-md text-sm "
                 placeholder="Email*"
                 name="user_email"
               />
@@ -141,7 +144,7 @@ const Contact = () => {
               </label>
               <input
                 placeholder="Subject name"
-                className="placeholder-gray-500 placeholder-opacity-50 focus:placeholder-gray-500 bg-purple-50 py-2 mb-5 px-3 border rounded-md text-sm  "
+                className="placeholder-gray-500 placeholder-opacity-50 focus:placeholder-gray-500 focus:bg-white focus:outline-none bg-purple-50 py-2 mb-5 px-3 border rounded-md text-sm  "
               />
 
               <label
@@ -153,7 +156,7 @@ const Contact = () => {
               <div class="sm:col-span-2">
                 <textarea
                   rows="6"
-                  class="block p-2.5 w-full text-sm placeholder-opacity-50 placeholder-gray-500 focus:placeholder-gray-500 bg-purple-50 py-2 mb-5 px-3 border rounded-md"
+                  class="block p-2.5 w-full text-sm placeholder-opacity-50 placeholder-gray-500 focus:bg-white focus:outline-none focus:placeholder-gray-500 bg-purple-50 py-2 mb-5 px-3 border rounded-md"
                   placeholder="Leave a comment..."
                   name="message"
                 ></textarea>
