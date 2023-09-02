@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div id="about" style={{ paddingTop: 100 }} className="w-full">
-      <div className="flex flex-col mx-auto items-center justify-center   h-full max-w-screen-lg px-3 md:flex-row">
-        <div className="flex flex-col justify-center h-full pr-14 pb-12">
+      <div className="flex flex-col mx-auto items-center justify-center  h-full max-w-screen-lg px-3 md:flex-row">
+        <div className="flex flex-col justify-center h-full w-96 md:w-1/2 pb-12">
           <Typed
             strings={["About Me"]}
             typeSpeed={100}
@@ -33,7 +33,7 @@ const About = () => {
             <img
               src={aboutimage}
               alt="myImage"
-              className="rounded-2xl w-2/3 justify-center mx-auto md:w-full "
+              className="rounded-2xl w-2/3 justify-center mx-auto md:w-96 md:ml-20 "
             />
           </motion.div>
         </div>

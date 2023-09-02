@@ -3,6 +3,7 @@ import styles from "../mystyle.module.css";
 import PhoneCallIcon from "../asset/svg/phonecallIcon";
 import emailjs from "@emailjs/browser";
 import { Alert } from "@mui/material";
+import GmailIcon from "../asset/svg/gmailIcon"
 const Contact = () => {
   const [emailsent, setEmailsent] = useState(false);
   const form = useRef();
@@ -66,7 +67,7 @@ const Contact = () => {
             <div className="py-10 text-xl font-light">
               <h1>Let's create something together</h1>
             </div>
-            {/* <div>
+            <div>
               <a
                 className="flex flex-row border-gray-100 border-2 hover:bg-slate-100 cursor-pointer px-5 py-3 rounded-lg mb-5 "
                 href="mailto: quanganh.timmyng@gmail.com"
@@ -78,7 +79,7 @@ const Contact = () => {
                   <p>quanganh.timmyng@gmail.com</p>
                 </div>
               </a>
-            </div> */}
+            </div>
             <div>
               <div
                 className="flex flex-row border-gray-100 border-2 hover:bg-slate-100 cursor-pointer px-5 py-3 rounded-lg "
