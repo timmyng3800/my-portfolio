@@ -6,6 +6,7 @@ import NavBar from "./Components/NavBar";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Portfolio from "./Components/Portfolio";
 function App() {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ function App() {
         <NavBar />
         <About />
         <Skills />
+        <Portfolio/>
         <MyExperience />
         <Contact/>
         <Footer/>

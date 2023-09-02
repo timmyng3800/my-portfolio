@@ -86,7 +86,7 @@ const MyExperience = () => {
 
   return (
     <div id="experiences">
-      <div className=" flex flex-row items-center pt-28">
+      <div className=" flex flex-row items-center pt-16">
         <div
           style={{
             flex: 1,
