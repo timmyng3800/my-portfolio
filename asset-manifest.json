@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.9843d427.css",
-    "main.js": "/my-portfolio/static/js/main.2655ca8b.js",
+    "main.js": "/my-portfolio/static/js/main.ecdbdb5e.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/CarClub.png": "/my-portfolio/static/media/CarClub.41559d6dc458f9391fe4.png",
     "static/media/mywebsitepicture.png": "/my-portfolio/static/media/mywebsitepicture.477df9fe6fdc956a2c89.png",
+    "static/media/aboutImage.jpg": "/my-portfolio/static/media/aboutImage.c27fec0b27c566822dfa.jpg",
     "static/media/walacy.png": "/my-portfolio/static/media/walacy.0bb68b4d246966552576.png",
-    "static/media/aboutimage.jpg": "/my-portfolio/static/media/aboutimage.1cab4c8b7c44dc35d2a6.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.9843d427.css.map": "/my-portfolio/static/css/main.9843d427.css.map",
-    "main.2655ca8b.js.map": "/my-portfolio/static/js/main.2655ca8b.js.map",
+    "main.ecdbdb5e.js.map": "/my-portfolio/static/js/main.ecdbdb5e.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9843d427.css",
-    "static/js/main.2655ca8b.js"
+    "static/js/main.ecdbdb5e.js"
   ]
 }
