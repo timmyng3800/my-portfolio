@@ -50,7 +50,7 @@ const NavBar = () => {
 
 
   return (
-    <div className="flex justify-around items-center w-full h-20 text-white bg-black fixed">
+    <div className="flex justify-around items-center w-full h-20 z-50  text-white bg-black fixed">
       <div className="cursor-pointer">
         <a href="/">
           <h1 className={styles.icon}>Timmy's Portfolio</h1>

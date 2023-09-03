@@ -63,9 +63,8 @@ const Contact = () => {
       <div className="justify-items-center content-center items-center w-full h-full justify-evenly flex flex-col pt-10 pb-10 md:flex-row mb-10 md:px-12">
         <div className="w-96 mb-10 md:w-1/2  ">
           <div className="md:w-90 xl:ml-36 lg:ml-9 lg:w-128">
-            <div className="text-5xl">
-              <h1 className={styles.about}>Let's chat.</h1>
-              <h1 className={styles.about}>Tell me about your thought</h1>
+            <div className="text-4xl">
+              <h1 className={styles.about}>Let's chat. Tell me about your thought</h1>
             </div>
             <div className="py-10 text-xl font-light">
               <h1>Let's create something together</h1>
@@ -86,7 +85,7 @@ const Contact = () => {
             <div>
               <div
                 className="flex flex-row border-gray-100 border-2 hover:bg-slate-100 cursor-pointer px-5 py-3 rounded-lg "
-                href="mailto: quanganh.timmyng@gmail.com"
+                href="tel:+61448128541"
               >
                 <Lottie animationData={whatsapp}/>
 

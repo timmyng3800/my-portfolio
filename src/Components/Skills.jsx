@@ -22,7 +22,7 @@ const Skills = () => {
       id: 3,
       icon: <FaTools size={35} />,
       title: "Tools",
-      content: "Version control, Postman, ReactoTron, Agile",
+      content: "Version control, Postman, ReactoTron, Agile, Git Bash, Figma",
     },
   ];
   return (
