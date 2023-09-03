@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../mystyle.module.css";
-import aboutimage from "../asset/image/aboutimage.jpg";
+import aboutImage from "../asset/image/aboutImage.jpg";
 import Typed from "react-typed";
 import { motion } from "framer-motion";
 
@@ -20,9 +20,8 @@ const About = () => {
             I'm a Front End developer based in sunny Melbourne, Australia.
           </p>
           <p className="text-gray-500">
-           I've enjoyed turning complex problems into simple,
-            beautiful and intuitive designs. When I'm not pushing pixels, you'll
-            find me cooking, gardening or working out in the park.
+           I enjoyed turning complex problems into simple,
+            beautiful and intuitive designs. I am passionate about building excellent software that improves the lives of those around me.
           </p>
         </div>
         <div>
@@ -31,7 +30,7 @@ const About = () => {
             transition={{ duration: 0.5 }}
           >
             <img
-              src={aboutimage}
+              src={aboutImage}
               alt="myImage"
               className="rounded-2xl w-2/3 justify-center mx-auto md:w-96 md:ml-36 "
             />
