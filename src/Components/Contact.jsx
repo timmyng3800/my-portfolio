@@ -1,12 +1,11 @@
 import React, { useRef, useState } from "react";
 import styles from "../mystyle.module.css";
-import PhoneCallIcon from "../asset/svg/phonecallIcon";
 import emailjs from "@emailjs/browser";
 import { Alert } from "@mui/material";
 import GmailIcon from "../asset/svg/gmailIcon"
 import whatsapp from "../asset/dynamic picture/whatsapp.json"
 import Lottie from "lottie-react";
-import gmail from "../asset/dynamic picture/gmail.json"
+
 const Contact = () => {
   const [emailsent, setEmailsent] = useState(false);
   const form = useRef();
@@ -83,7 +82,7 @@ const Contact = () => {
               </a>
             </div>
             <div>
-              <div
+              <a
                 className="flex flex-row border-gray-100 border-2 hover:bg-slate-100 cursor-pointer px-5 py-3 rounded-lg "
                 href="tel:+61448128541"
               >
@@ -93,7 +92,7 @@ const Contact = () => {
                   <p>Call me via</p>
                   <p>(+61) 448 128 541</p>
                 </div>
-              </div>
+              </a>
             </div>
          
           </div>

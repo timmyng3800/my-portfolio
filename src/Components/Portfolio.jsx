@@ -36,7 +36,7 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div id="skills">
+    <div id="projects">
       <div className=" flex flex-row items-center pt-28">
         <div
           style={{
@@ -49,7 +49,7 @@ const Portfolio = () => {
 
         <div className="mx-6">
           <p className="text-4xl" style={{ textAlign: "center" }}>
-            Portfolio
+            Projects
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const Portfolio = () => {
           return (
             <div
               key={item.id}
-              class="max-w-sm rounded overflow-hidden shadow-lg mb-10 hover11 h-129 column hover:scale-110 duration-200 cursor-pointer"
+              class="w-96 max-w-sm rounded overflow-hidden shadow-lg mb-10 hover11 h-129 column hover:scale-110 duration-200 cursor-pointer"
             >
                 <a href={item.link}>
                 <figure>
